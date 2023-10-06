@@ -23,9 +23,16 @@ pipeline {
             }
         }
 
+        stage("Clear App Folder") {
+            steps {
+                sh 'rm -R /var/www/vitaliisili.com'
+            }
+        }
+
         stage('Deploy application') {
             steps {
-                sh 'mkdir /var/www/test-folder'
+                sh 'mkdir /var/www/vitaliisili.com'
+                sh 'cp -r build/. /var/www/vitaliisili.com'
             }
         }
 
