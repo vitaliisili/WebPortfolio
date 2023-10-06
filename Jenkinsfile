@@ -20,6 +20,7 @@ pipeline {
         stage('Deploy application') {
             steps {
                 sh 'node --version'
+                sh 'pwd'
                 sh 'ls -a'
             }
         }
