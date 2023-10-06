@@ -20,16 +20,12 @@ pipeline {
             steps {
                 sh 'npm install'
                 sh 'npm run build'
-                sh 'ls -a'
-                sh 'ls build'
             }
         }
 
         stage('Deploy application') {
             steps {
-                sh 'node --version'
-                sh 'pwd'
-                sh 'ls -a'
+                sh 'mkdir /var/www/test-folder'
             }
         }
 
