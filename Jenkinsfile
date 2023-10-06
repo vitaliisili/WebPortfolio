@@ -6,14 +6,22 @@ pipeline {
     stages {
         stage('Clean Workspace') {
             steps {
-                echo 'clean workspace'
-                sh 'ls /var/www'
+                cleanWs()
             }
         }
 
         stage('Checkout') {
             steps {
                 checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'npm install'
+                sh 'npm run build'
+                sh 'ls -a'
+                sh 'ls build'
             }
         }
 
