@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 
 body {
     overflow: hidden;
+}
+
+.type-text {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 4em;
+    white-space: pre-line;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-top: 3em;
+}
+
+@media (max-width: 640px) {
+    .type-text {
+        font-size: 3.5em;
+    }
 }
