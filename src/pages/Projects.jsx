@@ -2,7 +2,6 @@ import React from 'react';
 import {BsChevronLeft, BsChevronRight} from "react-icons/bs";
 import inventory from '../static/images/inventory.png'
 import library from '../static/images/library.png'
-import synology from '../static/images/synology.png'
 import baboo from '../static/images/baboo.png'
 import {Link} from "react-router-dom";
 import Navbar from "../components/Navbar";
