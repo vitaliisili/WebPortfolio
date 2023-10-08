@@ -1,8 +1,11 @@
 # Web Portfolio Project
+
 ![rm-header](doc/assests/rd-home.png)
 
 This is a web portfolio project showcasing my skills, projects, and experience as a developer.
+
 ## [Click to see a demo](https://vitaliisili.com)
+
 ## Table of Contents
 Description
 Features
