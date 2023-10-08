@@ -1,5 +1,5 @@
 # Web Portfolio Project
-![rm-header](doc/assests/home.gif)
+![rm-header](doc/assests/rd-home.png)
 
 This is a web portfolio project showcasing my skills, projects, and experience as a developer.
 ## [Click to see demo](https://vitaliisili.com)
@@ -37,7 +37,7 @@ Contact form for users to get in touch with me directly.
 Modify the content of the files to personalize the portfolio according to your information and preferences.
 Add your projects to the project gallery with appropriate descriptions and links.
 Customize the styles and layout to match your personal branding.
-![projects](doc/assests/rm-projects.png)
+![projects](doc/assests/rd-projects.png)
 
 ### Contributing
 Contributions are welcome! Please follow these steps:
