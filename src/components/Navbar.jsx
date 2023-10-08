@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return (
         <nav className='text-white flex justify-between items-center pt-10 w-full font-spacegrotesk z-10'>
-            <img className='h-10 w-10 transition-all duration-700 hover:scale-150' src={logo} alt="logo"/>
+            <Link to='/'><img className='h-10 w-10 transition-all duration-700 hover:scale-150' src={logo} alt="logo"/></Link>
             <div className="relative">
                 <div className="xs:block md:hidden" onClick={() => setIsNavOpen((prev) => !prev)}>
                     <GiHamburgerMenu className={isNavOpen ? 'hidden' : 'visible text-xl'}/>
