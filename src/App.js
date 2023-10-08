@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import AppContainer from "./components/AppContainer";
+// import AppContainer from "./components/AppContainer";
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";

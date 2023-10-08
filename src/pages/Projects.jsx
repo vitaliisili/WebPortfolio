@@ -43,7 +43,7 @@ const Projects = () => {
                         </div>
                     </Link>
 
-                    <Link to='https://library.vitaliisili.comm' rel='noreferrer' target={'_blank'} className="group transition-shadow duration-200 h-[30em] w-80 rounded-lg overflow-hidden relative hover:cursor-pointer hover:shadow-[-3px_10px_23px_0.36px_rgba(100,116,139,0.20)] transition-transform duration-700 hover:scale-105">
+                    <Link to='https://library.vitaliisili.comm' rel='noreferrer' target={'_blank'} className="group h-[30em] w-80 rounded-lg overflow-hidden relative hover:cursor-pointer hover:shadow-[-3px_10px_23px_0.36px_rgba(100,116,139,0.20)] transition-transform duration-700 hover:scale-105">
                         <img className='h-full w-full object-cover' src={library} alt="inventory"/>
                         <div className="absolute flex w-full h-28 bottom-0 backdrop-blur-sm">
                             <p className='text-white my-auto ml-5 font-bold text-xl'>Library Management</p>
@@ -68,7 +68,7 @@ const Projects = () => {
                         </div>
                     </Link>
 
-                    <Link to='https://github.com/vitaliisili/dice_game_python' rel='noreferrer' target={'_blank'} className="group transition-shadow duration-200 h-[30em] w-80 rounded-lg overflow-hidden relative hover:cursor-pointer hover:shadow-[-3px_10px_23px_0.36px_rgba(100,116,139,0.20)] transition-transform duration-700 hover:scale-105">
+                    <Link to='https://github.com/vitaliisili/dice_game_python' rel='noreferrer' target={'_blank'} className="group h-[30em] w-80 rounded-lg overflow-hidden relative hover:cursor-pointer hover:shadow-[-3px_10px_23px_0.36px_rgba(100,116,139,0.20)] transition-transform duration-700 hover:scale-105">
                         <img className='h-full w-full object-cover' src={baboo} alt="inventory"/>
                         <div className="absolute flex w-full h-28 bottom-0 backdrop-blur-sm">
                             <p className='text-white my-auto ml-5 font-bold text-xl'>Baboo Dice Game</p>
