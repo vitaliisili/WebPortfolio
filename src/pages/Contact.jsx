@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
-import smoke from "../static/video/smoke15.mp4";
+import smoke from "../static/video/smoke6.mp4";
 
 const Contact = () => {
     return (
