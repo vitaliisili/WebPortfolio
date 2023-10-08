@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+body {
+    overflow: hidden;
+    background-color: #212428;
+}
+
+.type-text {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 4.5em;
+    white-space: pre-line;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
