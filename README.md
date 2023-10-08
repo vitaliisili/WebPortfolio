@@ -1,8 +1,8 @@
 # Web Portfolio Project
 ![rm-header](doc/assests/rd-home.png)
-This is a web portfolio project showcasing my skills, projects, and experience as a web developer/designer.
-
-### Table of Contents
+This is a web portfolio project showcasing my skills, projects, and experience as a developer.
+## [Click to see demo](https://vitaliisili.com)
+## Table of Contents
 Description
 Features
 Technologies Used
@@ -13,10 +13,10 @@ Contributing
 License
 Contact
 
-### Description
+## Description
 This web portfolio project is created to display my work as a web developer and designer. It includes sections for my bio, skills, projects, and contact information. The purpose of this portfolio is to showcase my abilities, experience, and previous projects to potential clients or employers.
 
-### Features
+## Features
 Responsive design for various devices and screen sizes.
 Sections for bio, skills, projects, and contact information.
 Interactive elements and smooth animations for enhanced user experience.
@@ -24,7 +24,7 @@ Project gallery with descriptions and links to deployed projects or GitHub repos
 Contact form for users to get in touch with me directly.
 
 
-### Technologies Used
+## Technologies Used
 - HTML5
 - CSS3
 - JavaScript
@@ -32,7 +32,7 @@ Contact form for users to get in touch with me directly.
 - Tailwind
 - Jenkins
 
-### Usage
+## Usage
 Modify the content of the files to personalize the portfolio according to your information and preferences.
 Add your projects to the project gallery with appropriate descriptions and links.
 Customize the styles and layout to match your personal branding.
@@ -47,10 +47,10 @@ Push to the branch: git push origin feature/new-feature
 Submit a pull request.
 
 
-### License
+## License
 This project is licensed under the [License](License) - see the LICENSE.md file for details.
 
-### Contact
+## Contact
 Vitalii Sili
 
 Portfolio: [Portfolio URL](https://vitaliisili.com)
