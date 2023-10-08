@@ -9,7 +9,7 @@ import Blog from "./pages/Blog";
 
 const App = () => {
     return (
-        <AppContainer>
+        // <AppContainer>
             <BrowserRouter>
                 <Routes>
                     <Route exact path='/' element={<Home/>}/>
@@ -18,7 +18,7 @@ const App = () => {
                     <Route exact path='/blog' element={<Blog/>}/>
                 </Routes>
             </BrowserRouter>
-        </AppContainer>
+        // </AppContainer>
     );
 };
 

@@ -18,7 +18,7 @@ const Navbar = () => {
 
     useEffect(() => {
         if (width >= 768) {
-            setIsNavOpen(false)
+            setIsNavOpen(true)
         }
     }, [width]);
 
@@ -26,14 +26,14 @@ const Navbar = () => {
     return (
         <nav className='text-white flex justify-between items-center pt-10 w-full font-spacegrotesk z-10'>
             <img className='h-10 w-10 transition-all duration-700 hover:scale-150' src={logo} alt="logo"/>
-            <div className="menu">
+            <div className="relative">
                 <div className="xs:block md:hidden" onClick={() => setIsNavOpen((prev) => !prev)}>
-                    <GiHamburgerMenu className={isNavOpen ? 'visible text-xl' : 'hidden'}/>
-                    <AiOutlineClose className={isNavOpen ? 'hidden' : 'visible text-xl'}/>
+                    <GiHamburgerMenu className={isNavOpen ? 'hidden' : 'visible text-xl'}/>
+                    <AiOutlineClose className={isNavOpen ? 'visible text-xl' : 'hidden'}/>
                 </div>
                 {
-                    !isNavOpen &&
-                    <ul className={'flex justify-end md:space-x-10 xs:flex-col md:flex-row xs:space-x-0 xs:absolute xs:right-0 xs:top-20 md:top-0 md:relative'}>
+                    isNavOpen &&
+                    <ul className={'flex justify-end md:space-x-10 xs:flex-col md:flex-row xs:space-x-0 xs:absolute xs:right-10 md:right-0 top-0 md:relative'}>
                         <Link to='/'><li className='text-[20px] hover:text-[#6dc3e5] transition hover:duration-200 hover:drop-shadow-[0_10px_10px_rgba(116,207,242,0.9)] hover:scale-110'>Home</li></Link>
                         <Link to='/projects'><li className='text-[20px] hover:text-[#6dc3e5] transition hover:duration-200 hover:drop-shadow-[0_10px_10px_rgba(116,207,242,0.9)] hover:scale-110'>Projects</li></Link>
                         <Link to='/blog'><li className='text-[20px] hover:text-[#6dc3e5] transition hover:duration-200 hover:drop-shadow-[0_10px_10px_rgba(116,207,242,0.9)] hover:scale-110'>Blog</li></Link>
