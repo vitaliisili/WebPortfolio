@@ -2,7 +2,6 @@ import React from 'react';
 import TypeHeader from "../components/TypeHeader";
 import Navbar from "../components/Navbar";
 import smoke from "../static/video/smoke2.mp4"
-// import {VscGithub} from "react-icons/vsc";
 
 const Home = () => {
     return (
