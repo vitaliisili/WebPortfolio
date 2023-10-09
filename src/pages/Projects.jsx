@@ -10,8 +10,8 @@ import smoke from "../static/video/smoke12.mp4"
 
 const Projects = () => {
     return (
-        <div className='overflow-scroll'>
-            <video className='absolute h-screen w-screen object-cover -z-50' src={smoke} autoPlay loop muted></video>
+        <div className=''>
+            <video className='fixed h-screen w-screen object-cover -z-50' src={smoke} autoPlay loop muted></video>
             <div className='xs:w-full md:container flex flex-col h-screen items-center pl-10 pr-10 mx-auto'>
                 <Navbar/>
                 <h1 className='flex font-poppins xs:text-5xl md:text-7xl lg:text-8xl xs:mt-36 md:mt-20 transition-all duration-700 hover:scale-105'><BsChevronLeft className='text-slate-500'/><div className='text-blue-400'>/</div> <div className='text-white'>Projects</div><BsChevronRight className='text-slate-500'/></h1>
