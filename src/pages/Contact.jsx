@@ -13,8 +13,7 @@ const Contact = () => {
             <div className='xs:w-full md:container flex flex-col h-screen items-center pl-10 pr-10 mx-auto'>
                 <Navbar/>
                 <div className='flex justify-center items-center mt-32 md:mb-0 md:mt-0 w-full h-full'>
-                    <form action="#" className='
-                    flex flex-col md:flex-row text-white backdrop-blur-lg border border-blue-200 rounded-xl'>
+                    <form action="#" className='flex flex-col md:flex-row text-white backdrop-blur-lg border border-blue-200 rounded-xl'>
                         <div
                             className='plex plex-col space-y-11 bg-[rgba(171,152,198,0.4)] border-0 rounded-tl-xl rounded-bl-none md:rounded-bl-xl rounded-tr-xl md:rounded-tr-none p-5'>
                             <div className='space-y-2 flex flex-col'>
