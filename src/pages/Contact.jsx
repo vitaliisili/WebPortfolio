@@ -18,11 +18,11 @@ const Contact = () => {
                         <div
                             className='plex plex-col space-y-11 bg-[rgba(171,152,198,0.4)] border-0 rounded-tl-xl rounded-bl-xl p-5'>
                             <div className='space-y-2 flex flex-col'>
-                                <span className='text-xl'>Phone</span>
+                                <span className='text-xl text-[#6dc3e5]'>Phone</span>
                                 <span className='flex items-center'><span className='mr-2 text-[#6dc3e5]'><FaWhatsapp/></span>+49 176 762 722 38</span>
                             </div>
                             <div className='space-y-2 flex flex-col'>
-                                <span className='space-y-2 flex flex-col'>Work Email</span>
+                                <span className='space-y-2 flex flex-col text-[#6dc3e5]'>Work Email</span>
                                 <span className='flex items-center'><span className='mr-2 mt-1 text-[#6dc3e5]'><AiOutlineMail/></span>vitaliisili@yahoo.com</span>
                             </div>
                             <div className='space-y-2 flex flex-col'>
@@ -30,7 +30,7 @@ const Contact = () => {
                                 <span className='flex items-center'><span className='mr-2 text-[#6dc3e5] '><HiOutlineMapPin/></span>DE, 81475 Munchen</span>
                             </div>
                             <div>
-                                <span className='text-xl text-[#6dc3e5] '>Social Profiles</span>
+                                <span className='text-xl text-[#6dc3e5]'>Social Profiles</span>
                                 <div className='flex space-x-4 mt-2'>
                                     <Link to='https://www.linkedin.com/in/vitaliisili/'><div className='transition-all duration-300 hover:scale-125 text-4xl'><AiOutlineLinkedin/></div></Link>
                                     <Link to='https://github.com/vitaliisili'><div className='transition-all duration-300 hover:scale-125  text-4xl'><AiFillGithub/></div></Link>
