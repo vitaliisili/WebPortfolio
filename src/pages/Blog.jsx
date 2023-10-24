@@ -9,6 +9,7 @@ const Blog = () => {
             <div className='xs:w-full md:container flex flex-col h-screen items-center pl-10 pr-10 mx-auto'>
                 <Navbar/>
                 <h1 className='text-white text-8xl mt-60'>Coming Soon</h1>
+
             </div>
         </div>
     )
